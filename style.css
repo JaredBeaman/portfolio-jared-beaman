@@ -1,0 +1,104 @@
+body {
+  font-size: 16px;
+  letter-spacing: normal;
+
+  font-family: futura-pt,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  background-color: #EFEFEF;
+}
+
+a img {
+  height: 4.5vh;
+}
+
+span {
+  font-size: 2.25rem;
+}
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+    margin-top: 1rem; /* change this to whatever height you want it */
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  font-size: 1rem;
+  color: #707070;
+}
+
+.underline {
+  border-bottom: .5px solid;
+  border-color: #707070;
+  display: inline-block;
+  line-height: 3.5rem;
+}
+
+#contact_nav .social svg {
+  height: 2vh;
+  fill: black;
+  margin: 0 5px;
+}
+
+#footer {
+  height: 57.2vh;
+  background-color: black;
+}
+
+#meep {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+#footer_contacts svg {
+  height: 2vh;
+  fill: white;
+  margin: 0 5px;
+  margin-top: 14.3vh;
+}
+
+#footer_copyright {
+text-align: center;
+color: white;
+font-size: 1.25rem;
+font-family: futura-pt,sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 14.3vh;
+}
+
+#splash_bg {
+  height: 57.2vh;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#splash_text {
+  height: 14.3vh;
+  position: absolute;
+  top: 325px;
+  z-index: 2;
+}
+
+.navbar_link {
+  margin: 0 15px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #707070;
+}
