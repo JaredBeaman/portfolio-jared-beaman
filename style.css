@@ -1,9 +1,11 @@
 body {
   font-size: 16px;
   letter-spacing: normal;
+
   font-family: futura-pt,sans-serif;
   font-weight: 500;
   font-style: normal;
+
   background-color: #EFEFEF;
 }
 
@@ -71,11 +73,16 @@ font-style: normal;
 margin-top: 14.3vh;
 }
 
-#splash_bg {
+#splash {
   height: 57.2vh;
-  object-fit: cover;
+  background-color: #FFCE06;
+}
+
+#splash_bg {
+  object-fit: contain;
+  width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding-left: 0;
   padding-right: 0;
 }
@@ -83,12 +90,17 @@ margin-top: 14.3vh;
 #splash_text {
   height: 14.3vh;
   position: absolute;
-  top: 325px;
-  z-index: 2;
+  top: 39.325vh;
+  z-index: 3;
 }
 
 #logo {
   height: 5vh;
+}
+
+#cards {
+
+  height: calc(20vh * (1/1));
 }
 
 .navbar_link {
