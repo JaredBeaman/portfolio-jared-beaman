@@ -89,6 +89,10 @@ margin-top: 14.3vh;
   z-index: 2;
 }
 
+#logo {
+  height: 5vh;
+}
+
 .navbar_link {
   margin: 0 15px;
 }
