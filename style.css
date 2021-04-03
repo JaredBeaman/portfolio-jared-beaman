@@ -1,11 +1,9 @@
 body {
   font-size: 16px;
   letter-spacing: normal;
-
   font-family: futura-pt,sans-serif;
   font-weight: 500;
   font-style: normal;
-
   background-color: #EFEFEF;
 }
 
@@ -89,8 +87,8 @@ margin-top: 14.3vh;
   z-index: 2;
 }
 
-svg {
-  height: 5vh;
+#logo {
+  height: 1vh;
 }
 
 .navbar_link {
